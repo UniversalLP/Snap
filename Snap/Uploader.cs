@@ -15,7 +15,7 @@ namespace Snap
 {
     class Uploader
     {
-        private static string clientID = "7dd1b869f7a306a";
+        private static string clientID = "X";
         private static WebClient w = new WebClient();
         private static ImageCodecInfo jgpEncoder = GetEncoder(ImageFormat.Jpeg);
         private static System.Drawing.Imaging.Encoder myEncoder = System.Drawing.Imaging.Encoder.Quality;
